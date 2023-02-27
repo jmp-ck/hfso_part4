@@ -6,13 +6,13 @@ content-type: application/json
 
 {
     "title": "sample title",
-    "author": "John Doe",
-    "url": "http://www.xyz.com",
+    "author": "Billy Doe",
+    "url": "http://www.google.com",
     "likes": 2456
 }
 
 ###
-PUT http://localhost:3003/api/blogs/63fc6741bf1ad5a041077471 HTTP/1.1
+PUT http://localhost:3003/api/blogs/63fc6ab4bf1ad5a041077476 HTTP/1.1
 content-type: application/json
 
 {
@@ -23,4 +23,4 @@ content-type: application/json
 }
 
 ###
-DELETE http://localhost:3003/api/blogs/63fc38f31237c7975e5260b7
+DELETE http://localhost:3003/api/blogs/63fc6ab4bf1ad5a041077476
